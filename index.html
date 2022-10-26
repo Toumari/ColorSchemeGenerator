@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <input
+            type="color"
+            name="color-picker"
+            id="color-picker"
+            class="color-picker"
+          />
+          <select name="color-selector" id="color-selector">
+            <option value="monochrome">monochrome</option>
+            <option value="monochrome-dark">Monochrome Dark</option>
+            <option value="monochrome-light">Monochrome Light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic Complement</option>
+            <option value="triad">Triad</option>
+            <option value="quad">Quad</option>
+          </select>
+          <a class="btn btn-select" id="btn-select" href="#">Generate</a>
+        </div>
+      </nav>
+    </header>
+
+    <section id="color-strips"></section>
+
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>
