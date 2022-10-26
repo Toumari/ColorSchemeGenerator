@@ -33,7 +33,7 @@ const render = () => {
     colorHtml += `
             <div class="strip">
             <div class="color-strip" style="background-color: ${colorStrip.stripColor}"></div>
-            <div class="color-strip-text">${colorStrip.stripText}</div>
+            <div class="color-strip-text">#${colorStrip.stripText}</div>
             </div>
         `;
   });
