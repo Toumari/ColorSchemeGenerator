@@ -40,3 +40,5 @@ const render = () => {
 
   document.getElementById("color-strips").innerHTML = colorHtml;
 };
+
+getColors("559aa2");
